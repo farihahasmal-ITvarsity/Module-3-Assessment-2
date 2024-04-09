@@ -1,0 +1,718 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home {
+    background-image: url('images/meals-bg-01.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starters {
+    background-image: url('images/starters-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-salads {
+    background-image: url('images/salads-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-mains {
+    background-image: url('images/mains-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-desserts {
+    background-image: url('images/deserts-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-drinks {
+    background-image: url('images/drinks-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/meals-bg-02.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ========== HEADER ========== */
+.header {
+    background-color: rgb(124, 68, 42);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: black;
+
+}
+
+.header img {
+    width: 180px;
+    padding-right: 25px;
+    filter: contrast(170%);
+}
+
+/* ========== HOME PAGE ========== */
+
+#home-logo-img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 0px 10px;
+    filter: contrast(500%);
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+/* ===== HOME PAGE MENU ===== */
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    background-color: rgba(255, 255, 255, 0.164);
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+/* ========== STARTERS PAGE ========== */
+
+#starters {
+    padding-top: 50px;
+}
+
+/* ===== STARTERS PAGE MENU ===== */
+
+.starters-list a{
+    text-decoration: none;
+}
+
+.starters-list-item{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(152, 100, 32, 0.61);
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding-left: 10px;
+}
+
+.starters-list-item i{
+    float: right;
+    color: black;
+    padding-right: 26px;
+}
+
+
+/* ========== SALADS PAGE ========== */
+
+#salads {
+    padding-top: 50px;
+}
+
+/* ===== SALADS PAGE MENU ===== */
+
+.salads-list a{
+    text-decoration: none;
+}
+
+.salads-list-item{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(152, 100, 32, 0.61);
+}
+
+.salads-list-item h1{
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding-left: 10px;
+}
+
+.salads-list-item i{
+    float: right;
+    color: black;
+    padding-right: 26px;
+}
+
+
+/* ========== MAINS PAGE ========== */
+
+#mains {
+    padding-top: 50px;
+}
+
+/* ===== MAINS PAGE MENU ===== */
+
+.mains-list a{
+    text-decoration: none;
+}
+
+.mains-list-item{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(152, 100, 32, 0.61);
+}
+
+.mains-list-item h1{
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding-left: 10px;
+}
+
+.mains-list-item i{
+    float: right;
+    color: black;
+    padding-right: 26px;
+}
+
+/* ========== DESSERTS PAGE ========== */
+
+#desserts {
+    padding-top: 50px;
+}
+
+/* ===== DESSERTS PAGE MENU ===== */
+
+.desserts-list a{
+    text-decoration: none;
+}
+
+.desserts-list-item{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(152, 100, 32, 0.61);
+}
+
+.desserts-list-item h1{
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding-left: 10px;
+}
+
+.desserts-list-item i{
+    float: right;
+    color: black;
+    padding-right: 26px;
+}
+
+/* ========== DRINKS PAGE ========== */
+
+#drinks {
+    padding-top: 50px;
+}
+
+/* ===== DRINKS PAGE MENU ===== */
+
+.drinks-list a{
+    text-decoration: none;
+}
+
+.drinks-list-item{
+    border: 5px solid black;
+    margin: 10px;
+    background-color: rgba(152, 100, 32, 0.61);
+}
+
+.drinks-list-item h1{
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding-left: 10px;
+}
+
+.drinks-list-item i{
+    float: right;
+    color: black;
+    padding-right: 26px;
+}
+
+/* ========== MEALS PAGE ========== */
+#meals {
+    padding: 50px;
+}
+/* ===== MEALS DETAILS ===== */
+
+.meals-details img{
+    width: 100%;
+    padding-top: 55px;
+}
+
+.meals-details h2{
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid sienna;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.meals-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.meals-details-info p{
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+}
+
+.meals-details-about p{
+    font-size: 20px;
+    text-align: left;
+    color: black;
+}
+
+.meals-details-about-extras h3{
+    font-size: 22px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color: sienna;
+}
+
+.meals-details-about-extras label{
+    line-height: 25px;
+    margin-left: 10px;
+    color: black;
+}
+
+.meals-details-about-form input{
+    width: 80%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1.5px solid black;
+}
+
+.button{
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+
+/* ========== ORDER RECEIVED PAGE ========== */
+
+#order{
+   background-color: rgba(0, 0, 0, 0.344); 
+   width: 90%;
+   display: block;
+   margin: auto;
+   margin-top: 60px;
+   padding: 10px;
+}
+
+#order img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#order h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#order p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* ========== RESPONSIVE LAYER ========== */
+
+@media only screen and (min-width: 300px) {
+
+    .header {
+        height: 65px;
+    }
+
+    .header i {
+        font-size: 30px;
+    
+    }
+    
+    .header img {
+        width: 200px;
+    }
+   
+    #home{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .home-menu-item {
+        font-size: 35px;
+    }
+
+    #starters {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .starters-list-item h1{
+        font-size: 36px;
+    }
+
+    #salads {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .salads-list-item h1{
+        font-size: 36px;
+    }
+
+    #mains {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .mains-list-item h1{
+        font-size: 36px;
+    }
+
+    #desserts {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .desserts-list-item h1{
+        font-size: 36px;
+    }
+
+    #drinks {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .drinks-list-item h1{
+        font-size: 36px;
+    }
+
+    .meals-details h2{
+        font-size: 40px;
+    }
+
+    .meals-details-info p{
+        font-size: 26px;
+    }
+    
+    .meals-details-about p{
+        font-size: 26.5px;
+    }
+    
+    .meals-details-about-extras h3{
+        font-size: 32px;
+    }
+
+    .meals-details-about-extras label{
+        line-height: 35px;
+        font-size: 22px;
+    }
+    
+    .meals-details-about-form input{
+        width: 80%;
+        height: 35px;
+    }
+    
+    .button{
+        font-size: 28px;
+    }
+
+    #order h3{
+        font-size: 26px;
+    }
+    
+    #order p{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .header {
+        height: 65px;
+    }
+
+    .header i {
+        font-size: 30px;
+    
+    }
+    
+    .header img {
+        width: 200px;
+    }
+   
+    #home{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .home-menu-item {
+        font-size: 35px;
+    }
+
+    #starters {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .starters-list-item h1{
+        font-size: 36px;
+    }
+
+    #salads {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .salads-list-item h1{
+        font-size: 36px;
+    }
+
+    #mains {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .mains-list-item h1{
+        font-size: 36px;
+    }
+
+    #desserts {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .desserts-list-item h1{
+        font-size: 36px;
+    }
+
+    #drinks {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .drinks-list-item h1{
+        font-size: 36px;
+    }
+
+    .meals-details h2{
+        font-size: 40px;
+    }
+
+    .meals-details-info p{
+        font-size: 26px;
+    }
+    
+    .meals-details-about p{
+        font-size: 26.5px;
+    }
+    
+    .meals-details-about-extras h3{
+        font-size: 32px;
+    }
+
+    .meals-details-about-extras label{
+        line-height: 35px;
+        font-size: 22px;
+    }
+    
+    .meals-details-about-form input{
+        width: 80%;
+        height: 35px;
+    }
+    
+    .button{
+        font-size: 28px;
+    }
+
+    #order h3{
+        font-size: 26px;
+    }
+    
+    #order p{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .header {
+        height: 65px;
+    }
+
+    .header i {
+        font-size: 30px;
+    
+    }
+    
+    .header img {
+        width: 200px;
+    }
+   
+    #home{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .home-menu-item {
+        font-size: 35px;
+    }
+
+    #starters {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .starters-list-item h1{
+        font-size: 36px;
+    }
+
+    #salads {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .salads-list-item h1{
+        font-size: 36px;
+    }
+
+    #mains {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .mains-list-item h1{
+        font-size: 36px;
+    }
+
+    #desserts {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .desserts-list-item h1{
+        font-size: 36px;
+    }
+
+    #drinks {
+        width: 80%;
+        margin: auto;
+        padding: 70px;
+    }
+
+    .drinks-list-item h1{
+        font-size: 36px;
+    }
+
+    .meals-details h2{
+        font-size: 40px;
+    }
+
+    .meals-details-info p{
+        font-size: 28px;
+    }
+    
+    .meals-details-about p{
+        font-size: 28px;
+    }
+    
+    .meals-details-about-extras h3{
+        font-size: 32px;
+    }
+
+    .meals-details-about-extras label{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    
+    .meals-details-about-form input{
+        width: 80%;
+        height: 35px;
+    }
+    
+    .button{
+        font-size: 28px;
+    }
+
+    #order h3{
+        font-size: 28px;
+    }
+    
+    #order p{
+        font-size: 25px;
+    }
+}
